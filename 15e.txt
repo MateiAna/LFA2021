@@ -1,0 +1,21 @@
+#L={w|w is not in (ab*)*}
+Transitions:
+0,a,sa
+0,b,sb
+sa,a,sa
+sa,b,sa
+sb,a,sb
+sb,b,sb
+States:
+0,S
+sa
+sb,F
+Accept:
+b
+baaab
+bbaab
+Reject:
+ 
+a
+aaab
+abbaab

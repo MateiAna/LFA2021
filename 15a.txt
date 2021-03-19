@@ -1,0 +1,24 @@
+#L={w|w does not contain the string ab}
+States:
+0,S,F
+1,F
+2
+Transitions:
+0,a,1
+0,b,0
+1,a,1
+1,b,2
+2,a,2
+2,b,2
+Accept:
+ 
+b
+a
+aaaaaa
+bbbbbb
+bbbaaa
+Reject:
+ababab
+abab
+bababa
+aaaaab

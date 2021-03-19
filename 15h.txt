@@ -1,0 +1,23 @@
+#L={w|w is any string except "a" and "b"}
+Transitions:
+0,a,1
+0,b,1
+1,a,2+
+1,b,2+
+2+,a,2+
+2+,b,2+
+States:
+0,S,F
+1
+2+,F
+Accept:
+ 
+aa
+ab
+ba
+bb
+aaaaa
+bababababa
+Reject:
+a
+b

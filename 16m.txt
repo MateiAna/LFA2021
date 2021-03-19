@@ -1,0 +1,14 @@
+#L={}
+Transitions:
+init,0,init
+init,1,init
+States:
+init,S
+Reject:
+ 
+0
+00
+1
+01
+11
+1101
